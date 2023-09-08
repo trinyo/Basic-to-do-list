@@ -13,9 +13,39 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="menu_window" class="container-fluid text-center">
-      <div class="row">
-        <div id="menu_panel" class="col">Fasza</div>
+    <!-- This is the housing for the menu -->
+    <div id="menu_house">
+      <div id="menu_window" class="container-fluid text-center">
+        <div class="row">
+          <div id="menu_panel" class="flex-column">
+            <p style="font-weight: bold">New note</p>
+            <!-- Input Num 1 -->
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default"
+                >Note name</span
+              >
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default"
+              />
+            </div>
+            <!-- Input Num 2 -->
+            <div class="input-group">
+              <span class="input-group-text">Content</span>
+              <textarea
+                style="height: 300px"
+                class="form-control"
+                aria-label="With textarea"
+              ></textarea>
+            </div>
+            <!-- Submit Button -->
+            <button style="margin-top: 5px" type="button" class="btn btn-dark">
+              Create
+            </button>
+          </div>
+        </div>
       </div>
     </div>
     <div id="main_container" class="container-fluid">
@@ -31,6 +61,7 @@
       </div>
       <div class="row">
         <div class="col">
+          <!-- Notes Go Here! -->
           <div id="note_field" class="container-fluid"></div>
         </div>
       </div>
