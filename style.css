@@ -1,0 +1,15 @@
+body {
+  background-image: linear-gradient(to right, purple, blue);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  height: 100vh;
+  margin-top: 10px;
+}
+
+#note_field {
+  margin-top: 10px;
+  background-color: white;
+  height: 90vh;
+  border-radius: 10px;
+}
