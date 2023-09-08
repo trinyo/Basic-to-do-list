@@ -1,6 +1,7 @@
-let note_field = document.getElementById('note_field');
-const add_note = () => {};
+let menu_housing = document.getElementById("menu_housing");
 
 const menu = () => {
-  note_field += <div id="menu_window" class="container-fluid"></div>;
+  console.log = "fuck";
 };
+
+const add_note = () => {};
