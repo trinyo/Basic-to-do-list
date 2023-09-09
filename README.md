@@ -11,5 +11,5 @@
 
 # Bugs:
 
-- note_filed incorrect size
+- note_field incorrect size
 - card size and order problem
