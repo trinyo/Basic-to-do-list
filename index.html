@@ -1,53 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/jpg" href="./resources/pinned.png" />
-    <title>notefy</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous"
-    />
-    <!-- My Css -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- My Script -->
-    <script src="script.Js" defer></script>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
   </head>
   <body>
-    <!-- This is the housing for the menu -->
-    <div id="menu_housing"></div>
-    <!-- DIVIDE -->
-    <div id="main_container" class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <!-- DIVIDE -->
-          <button
-            id="add_button"
-            type="button"
-            class="btn btn-dark"
-            onclick="menu()"
-          >
-            new note
-          </button>
-        </div>
-      </div>
-      <!-- DIVIDE -->
-      <div class="row">
-        <div class="col">
-          <!-- Notes Go Here! -->
-          <div class="container-fluid flex-row">
-            <div id="note_field" class="row"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
