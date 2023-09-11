@@ -13,3 +13,4 @@
 
 - note_field incorrect size
 - card size and order problem
+- cards have the same id so the proper cant be removed
