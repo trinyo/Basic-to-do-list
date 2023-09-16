@@ -3,11 +3,9 @@
 @tailwind utilities;
 
 body {
-  width: 100vw;
-  overflow: hidden;
+  @apply h-screen;
 }
 
 #root {
-  width: 100vw;
-  overflow: hidden;
+  @apply h-full flex;
 }
